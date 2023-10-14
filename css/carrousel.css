@@ -9,9 +9,9 @@ h3{
 }
 section{
     display: flex;
-    width: 1200px;
+    width: 1450px;
     height: 430px;
-    margin-left:350px
+    margin-left:250px
 
 }
 section img{
@@ -42,6 +42,7 @@ section img:hover{
 		padding: 0;
 		box-sizing: border-box;
 		font-family: 'Montserrat Alternates', sans-serif;
+		
 	}
 	body{
 		background: url(/imagenes/bckgr.avif);
@@ -124,7 +125,7 @@ section img:hover{
 	}
 	.cont-menu{
 		width: 100%;
-		max-width: 250px;
+		max-width: 200px;
 		background: #1c1c1c;
 		height: 100vh;
 		position: relative;
