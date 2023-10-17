@@ -7,9 +7,7 @@ head=`
                     <label for="btn-menu">☰</label>
                 </div>
                     <div class="logo">
-                        
                         <h1>Código Gamer</h1>
-        
                     </div>
                     <nav class="menu">
                         <a href="#">Inicio</a>
@@ -31,7 +29,6 @@ head=`
                 <label for="btn-menu">✖️</label>
             </div>
         </div>
-        
         </nav>
     </header>
     `
