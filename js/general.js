@@ -10,7 +10,7 @@ head=`
                         <h1>Código Gamer</h1>
                     </div>
                     <nav class="menu">
-                        <a href="#">Inicio</a>
+                        <a href="index.html">Inicio</a>
                         <a href="#">Nosotros</a>
                         <a href="./registro.html">Login</a>
                     </nav>
@@ -24,6 +24,7 @@ head=`
                     <a href="#">Rainbow Six:Siege</a>
                     <a href="./LoL.html">League of Legends</a>
                     <a href="./wow.html">World of Warcraft</a>
+                    <a href="./mdi.html">Mdi Wow</a>
                     <a href="#">Counter:Strike</a>
                 </nav>
                 <label for="btn-menu">✖️</label>

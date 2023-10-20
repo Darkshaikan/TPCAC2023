@@ -1,3 +1,6 @@
+h1{
+    color: black;
+}
 h2{
     text-align: center;
     color: white;
@@ -57,4 +60,6 @@ section img:hover{
 		z-index: -1;
 		top: 0;left: 0;
 	}
-
+.navegador{
+    display: flexbox;
+}
