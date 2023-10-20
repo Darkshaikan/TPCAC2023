@@ -78,11 +78,6 @@ body {
   top: 20px;
   left: 82%;
 }
-
-@media only screen and (max-width: 600px) {
-
-}
-
 .caja {
   width: 300px;
   height: auto;
