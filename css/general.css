@@ -73,6 +73,7 @@
 		transition: all 500ms ease;
 		opacity: 0;
 		visibility: hidden;
+		z-index: 800;
 	}
 
 	#btn-menu:checked~.container-menu {
@@ -127,3 +128,4 @@
 		text-align: center;
 		color: white;
 	}
+	
