@@ -11,7 +11,6 @@ head=`
                     </div>
                     <nav class="menu">
                         <a href="index.html">Inicio</a>
-                        <a href="#">Nosotros</a>
                         <a href="./registro.html">Login</a>
                     </nav>
                 </div>
@@ -24,7 +23,7 @@ head=`
                     <a href="#">Rainbow Six:Siege</a>
                     <a href="./LoL.html">League of Legends</a>
                     <a href="./wow.html">World of Warcraft</a>
-                    <a href="./mdi.html">Mdi Wow</a>
+                    <a href="./mdi.html">Wow: Mythic Dungeon International</a>
                     <a href="#">Counter:Strike</a>
                 </nav>
                 <label for="btn-menu">✖️</label>
