@@ -49,3 +49,14 @@ margin-right: auto;
 margin: 0px;
 padding: 0px;
 }
+table, td{  
+    border: 3px solid black;
+    background-color: rgb(64, 78, 78);
+}
+table{
+    margin: 50px;
+    margin-left: 33%
+}
+#region{
+    text-align: center;
+}
