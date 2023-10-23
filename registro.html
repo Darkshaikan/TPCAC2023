@@ -12,11 +12,13 @@
   <script defer src="./js/general.js"></script>
   <link rel="stylesheet" href="./css/general.css"> 
   <link rel="stylesheet" href="./css/styles.css">  
+  <script  defer src="./js/registro.js"></script>
 </head>
 
 <body>
   <header></header>
   <br><br><br>
+ 
   <div class="section">
     <div class="container">
       <div class="row h-75 justify-content-center">
@@ -29,17 +31,19 @@
               <div class="card-3d-wrapper">
                 <div class="card-front">
                   <div class="center-wrap">
-                    <div class="section text-center">
+               <form onsubmit="return validl();">   
+                   <div class="section text-center">
                       <h4 class="mb-4 pb-3">Iniciar Sesion</h4>
                       <div class="form-group">
-                        <input type="email" class="form-style" placeholder="Email">
+                        <input type="email" name="mail" class="form-style" id="mail" placeholder="Email">
+                        <span id="validarmail"></span>
                         <i class="input-icon uil uil-at"></i>
                       </div>
                       <div class="form-group mt-2">
-                        <input type="password" class="form-style" placeholder="Contrseña">
+                        <input type="password" class="form-style" id="clave" placeholder="Contraseña"> <span id="validarclave"></span>
                         <i class="input-icon uil uil-lock-alt"></i>
                       </div>
-                      <a href="" class="btn mt-4">Ingresar</a> <!-- link para entrar a la pagina al login-->
+                      <input  class="btn mt-4" id="ingreso" value="Ingresar" type="submit"> </form><!-- link para entrar a la pagina al login-->
                       <p class="mb-0 mt-4 text-center"><a href="" class="link">Olvidaste tu contraseña?</a></p>
                       <!-- link para entrar a la pagina de olvide contrseña -->
                     </div>
@@ -47,35 +51,35 @@
                 </div>
                 <div class="card-back">
                   <div class="center-wrap">
-                    <div class="section text-center">
+                    <div class="section text-center"><form onsubmit="return validr();">
                       <h4 class="mb-3 pb-3">Registrarse</h4>
-                      <div class="form-group">
-                        <input type="text" class="form-style" placeholder="Nombre Completo">
+                      <div class="form-group"> 
+                        <input type="text" class="form-style" id="nombre" placeholder="Nombre Completo" type="na"> <span id="validarnombre"></span>
                         <i class="input-icon uil uil-user"></i>
                       </div>
                       <div class="form-group mt-2">
-                        <input type="tel" class="form-style" placeholder="Numero de Celular">
+                        <input type="tel" class="form-style" id="tele" placeholder="Numero de Celular"> <span id="validartele"></span>
                         <i class="input-icon uil uil-phone"></i>
                       </div>
                       <div class="form-group mt-2">
-                        <input type="email" class="form-style" placeholder="Email">
+                        <input type="email" class="form-style" id="mailr" placeholder="Email"> <span id="validarmailr"></span>
                         <i class="input-icon uil uil-at"></i>
                       </div>
                       <div class="form-group mt-2">
-                        <input type="password" class="form-style" placeholder="Contrseña">
+                        <input type="password" class="form-style"  id="claver" placeholder="Contraseña"><span id="validarclaver"></span>
                         <i class="input-icon uil uil-lock-alt"></i>
                       </div>
-                      <a href="" class="btn mt-4">Registrar</a> <!-- link para entrar a la pagina al registrar-->
-                    </div>
+                      <input class="btn mt-4" id="registro" value="Registrar" type="submit">
+                   </form>  </div>
                   </div>
-                </div>
+                </div> 
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+</div>
   <footer></footer>
 </body>
 
