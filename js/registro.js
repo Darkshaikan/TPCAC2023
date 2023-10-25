@@ -7,7 +7,7 @@ function validl() {
         error = true;
         mail.focus();
 
-    }
+    } else { document.getElementById("validarmail").innerHTML = ""; }
     if (clave.value == "") {
         document.getElementById("validarclave").innerHTML = "Debe completar esta sección";
         error = true;
@@ -19,13 +19,12 @@ function validl() {
         error = true;
         clave.focus();
 
-    }
+    } else { document.getElementById("validarclave").innerHTML = ""; }
     if (error == false) {
         document.getElementById("mail").value = "";
         document.getElementById("clave").value = "";
-        document.getElementById("validarmaill").innerHTML = "";
-        document.getElementById("validarclavel").innerHTML = "";
-
+        document.getElementById("validarmail").innerHTML = "";
+        document.getElementById("validarclave").innerHTML = "";
         alert("Ingreso exitoroso");
     }
     return !error
@@ -41,27 +40,26 @@ function validr() {
         document.getElementById("validarmailr").innerHTML = "Debe completar esta sección";
         error = true;
         mail.focus();
-
-    }
+    } else { document.getElementById("validarmailr").innerHTML = ""; }
     if (clave.value.length < 8) {
         document.getElementById("validarclaver").innerHTML = "La contraseña tiene menos que 8 caracteres";
         error = true;
         clave.focus();
 
-    }
+    } else { document.getElementById("validarclaver").innerHTML = ""; }
     if (clave.value == "") {
         document.getElementById("validarclaver").innerHTML = "Debe completar esta sección";
         error = true;
         clave.focus();
 
     }
+    if (!((isNaN(parseInt(telefono))) &&  (telefono.value.length == 8  ))) {
+        document.getElementById("validartele").innerHTML = "Entre un número de telefono valido";
+        error = true;
 
-    if (telefono.value.length < 8) {
-        document.getElementById("validartele").innerHTML = "Número de teléfono incompleto";
-        error = true;
-        telefono.focus();
-        error = true;
     }
+ else { document.getElementById("validartele").innerHTML = ""; }
+    
     if (telefono.value == "") {
         document.getElementById("validartele").innerHTML = "Debe completar esta sección";
         error = true;
@@ -72,12 +70,9 @@ function validr() {
         document.getElementById("validarnombre").innerHTML = "Debe completar esta sección";
         error = true;
         nombre.focus();
-    }
+    } else { document.getElementById("validarnombre").innerHTML = ""; }
+
     if (error == false) {
-        document.getElementById("mail").value = "";
-        document.getElementById("clave").value = "";
-        document.getElementById("tele").value = "";
-        document.getElementById("nombre").value = "";
         document.getElementById("validarmailr").innerHTML = "";
         document.getElementById("validarclaver").innerHTML = "";
         document.getElementById("validartele").innerHTML = "";
