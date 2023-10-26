@@ -1,0 +1,65 @@
+h1{
+    color: black;
+}
+h2{
+    text-align: center;
+    color: white;
+
+}
+h3{
+    text-align: center;
+    color: white    ;
+}
+section{
+    display: flex;
+    width: 1450px;
+    height: 430px;
+    margin-left:250px
+
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 500px;
+    opacity: 1;
+    filter: contrast(120%);
+    
+}
+.logo{
+    margin: auto 0;
+
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+		
+	}
+	body{
+		background: url(/imagenes/bckgr.avif);
+		background-size: 100vw 100vh;
+		background-repeat: no-repeat;
+	}
+	.capa{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0,0,0,0.6);
+		z-index: -1;
+		top: 0;left: 0;
+	}
+.navegador{
+    display: flexbox;
+}
