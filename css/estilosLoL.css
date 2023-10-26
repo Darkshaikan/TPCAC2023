@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'Beaufort';
+  src: url(../assets/webfonts/BeaufortforLOL-Regular.ttf);
+  font-weight: normal;
+  
+}
+
+@font-face {
+  font-family: 'Beaufortb';
+  src: url(../assets/webfonts/BeaufortforLOL-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Spiegelol';
+  src: url(../assets/webfonts/Spiegel_TT_Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Spiegelolb';
+  src: url(../assets/webfonts/Spiegel_TT_Bold.ttf);
+  font-weight: bold;
+}
+
 #logo {
   display: block;
   height: auto;
@@ -12,11 +36,13 @@ main {
 }
 
 p {
+  font-family: 'Spiegelol', Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 
 h2 {
+  font-family: 'Beaufortb', Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
 }
@@ -42,6 +68,9 @@ body {
   height: auto;
   padding: 1px;
   font: bold;
+  font-family: 'Spiegel', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
   flex-direction: column;
   flex-wrap: wrap;
   display: inline-flex;
@@ -49,6 +78,7 @@ body {
   position: absolute;
   top: 20px;
   left: 82%;
+  z-index: 900;
 }
 
 .caja {
