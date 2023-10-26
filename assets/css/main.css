@@ -3876,3 +3876,19 @@ input, select, textarea {
 		}
 
 	}
+
+#fd{
+	visibility: hidden;
+}
+.logo h1{
+	margin-top: 8%;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  .cont-menu{
+	letter-spacing: 0rem;
+  }
+  .cont-menu a{
+	border-bottom:0px;
+	margin: auto;
+	line-height:normal;
+  }
