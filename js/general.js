@@ -24,7 +24,7 @@ head=`
                     <a href="./LoL.html">League of Legends</a>
                     <a href="./wow.html">World of Warcraft</a>
                     <a href="./mdi.html">Wow: Mythic Dungeon International</a>
-                    <a href="#">Counter:Strike</a>
+                    <a href="./CS2.html">Counter-Strike  2</a>
                 </nav>
                 <label for="btn-menu">✖️</label>
             </div>
