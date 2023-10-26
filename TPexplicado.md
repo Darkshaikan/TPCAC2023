@@ -1,4 +1,5 @@
 Trabajo Práctico  Codo a Codo “Código Gamer”
+
 El proyecto de “Código Gamer” es un conjunto de páginas para reportar informes de novedades relacionadas a los  E-Sports (Deportes electrónicos), los juegos que serán reportados son League of Legends, Rainbow Six: Siege, World of Warcraft, y CS:GO. Los objetivos de este proyecto es de tener distintas páginas para cada uno de los temas sin contar la página inicial y la de registrarse/iniciar sesión. 
 
 
