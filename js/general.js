@@ -20,7 +20,7 @@ head=`
         <div class="container-menu">
             <div class="cont-menu">
                 <nav>
-                    <a href="#">Rainbow Six:Siege</a>
+                    <a href="./Rainbowsix.html">Rainbow Six:Siege</a>
                     <a href="./LoL.html">League of Legends</a>
                     <a href="./wow.html">World of Warcraft</a>
                     <a href="./mdi.html">Wow: Mythic Dungeon International</a>
